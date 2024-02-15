@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+
+        }
+
+        .container{
+            margin-top: 200px;
+            width: 100%;
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            font-family: Arial, sans-serif;
+        }
+        p{
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+
+        }
+        img{
+            display: block;
+            margin: 0 auto;
+        }
+        button{
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+            color: #333;
+            box-sizing: border-box;
+            outline: none;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <p>Here is your QR code</p>
+    
+        <img src="qr_image.svg" alt="" height="200" width="200">
+        <a href="/download" download="qr_image.svg">
+            <button>Download QR Code</button>
+          </a>
+    </div>
+</body>
+</html>
